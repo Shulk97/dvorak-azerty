@@ -7,4 +7,5 @@ default xkb_types "complete" {
     include "extra"
     include "numpad"
     include "dvorak_qwerty"
+    include "dvorak_azerty"
 };

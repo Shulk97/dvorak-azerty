@@ -295,6 +295,7 @@
   dvorak-r        us: English (right handed Dvorak)
   dvorak-classic  us: English (classic Dvorak)
   dvp             us: English (Programmer Dvorak)
+  dvp-nb             us: English (Programmer Dvorak with numbers)
   dvorak-qwerty   us: English (Dvorak-Qwerty)
   rus             us: Russian (US, phonetic)
   mac             us: English (Macintosh)
@@ -449,6 +450,8 @@
   bepo            fr: French (Bepo, ergonomic, Dvorak way)
   bepo_latin9     fr: French (Bepo, ergonomic, Dvorak way, Latin-9 only)
   dvorak          fr: French (Dvorak)
+  dvorak-azerty-programmer          fr: French (Dvorak-Azerty for programmer)
+  dvorak-french          fr: French (Dvorak-Azerty to type French)
   mac             fr: French (Macintosh)
   bre             fr: French (Breton)
   oci             fr: Occitan

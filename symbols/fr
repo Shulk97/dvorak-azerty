@@ -40,15 +40,15 @@ xkb_symbols "basic" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "dvorak-azerty" {
+xkb_symbols "dvorak-azerty-programmer" {
     include "fr(basic)"
-    name[Group1]= "French (Dvorak-Azerty)";
+    name[Group1]= "French (Dvorak-Azerty for programmer)";
 
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // symbols row, left side
     key <TLDE> { [ asciitilde,       dollar,              dead_tilde                        ] };
     key <AE01> { [ percent,          ampersand                                   ] };
-    key <AE02> { [ bracketleft,     7,                      eacute,           Eacute           ] };
+    key <AE02> { [ bracketleft,     7,                      eacute,Eacute                    ] };
     key <AE03> { [ braceleft,         5                                                 ] };
     key <AE04> { [ braceright,      3                                                 ] };
     key <AE05> { [ parenleft,        1,                      EuroSign                          ] };
@@ -71,7 +71,7 @@ xkb_symbols "dvorak-azerty" {
     //             Unmodified       Shift           AltGr            Shift+AltGr
     key <AD01> { [ a, A, colon,              semicolon,    dead_diaeresis  ] };
     key <AD02> { [ z, Z, comma,           less ] };
-    key <AD03> { [ e, E, period,            greater,          EuroSign   ] };
+    key <AD03> { [ EuroSign, E, period,            greater,          EuroSign   ] };
     key <AD04> { [ r, R, p, P ] };
     key <AD05> { [ t, T, y, Y ] };
     key <AD06> { [ y, Y, f, F ] };
@@ -97,8 +97,8 @@ xkb_symbols "dvorak-azerty" {
     key <AC08> { [ k, K, t, T ] };
     key <AC09> { [ l, L, n, N ] };
     key <AC10> { [ m, M, s, S ] };
-    key <AC11> { [ ugrave,       percent, minus,       underscore, ugrave ] };
-    key <BKSL> { [ backslash, bar,        backslash, bar                                    ] };
+    key <AC11> { [ ugrave,       percent, minus,       underscore] };
+    key <BKSL> { [ backslash, bar,        slash, bar                                    ] };
 
     // lower row, left side
     key <AB01> { [ w, W,apostrophe,      quotedbl,       dead_acute] };
@@ -110,16 +110,16 @@ xkb_symbols "dvorak-azerty" {
     key <AB05> { [ b, B, x, X ] };
     key <AB06> { [ n, N, b, B ] };
     key <AB08> { [ semicolon,     period, w, W ] };
-    key <AB09> { [ colon,      slash, v, V ] };
+    key <AB09> { [ KP_Divide, colon,   v, V ] };
     key <AB10> { [ exclam,    section, z, Z ] };
 
 };
 
 
 partial alphanumeric_keys
-xkb_symbols "dvorak-custom" {
+xkb_symbols "dvorak-french" {
     include "fr(basic)"
-    name[Group1]= "French (Dvorak with azerty shortkeys)";
+    name[Group1]= "French (Dvorak to type in French)";
 
 
     key <TLDE> { [ dollar,           asciitilde,     dead_tilde                        ] };
@@ -128,31 +128,29 @@ xkb_symbols "dvorak-custom" {
     key <AE04> { [ braceright,    3                  ] };
     key <AE08> { [ parenright,    2            ] };
     key <AE05> { [ parenleft,       1,          EuroSign                          ] };
+    key <AE11> { [ exclam,8,degree  ] };
 
     key.type[group1]="DVORAK_AZERTY";
 
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // symbols row, left side
     key <AE02> { [ bracketleft,    Eacute,           eacute,       7,    Eacute        ] };
+    key <AE09> { [ plus,                Ccedilla,     ccedilla,  4            ] };
+    key <AE07> { [ asterisk,          Egrave,      egrave,    0,   Egrave           ] };
     key <AE06> { [ 9,                     equal,             equal,         9               ] };
 
     // symbols row, right side
-    key <AE07> { [ asterisk,          Egrave,      egrave,    0,   Egrave           ] };
-    key <AE09> { [ plus,                Ccedilla,     ccedilla,  4            ] };
     key <AE10> { [ bracketright,  at,               agrave,    6,  Agrave   ] };
-    key <BKSL> { [ backslash,    bar ] };
-
 
     key <AC01> { [ q, Q, a, A] };
     key <AB07> { [ comma, question, m, M] };
-    key <AE11> { [ 8, degree,exclam,8   ] };
     key <AE12> { [ equal, plus, numbersign,      plus] };
 
     // upper row, left side
     //             Unmodified       Shift           AltGr            Shift+AltGr
     key <AD01> { [ a, A, colon,      semicolon,           dead_diaeresis  ] };
     key <AD02> { [ z, Z, comma,           less ] };
-    key <AD03> { [ e, E, period,          greater,        EuroSign   ] };
+    key <AD03> { [ EuroSign, E, period,          greater   ] };
     key <AD04> { [ r, R, p, P ] };
     key <AD05> { [ t, T, y, Y ] };
     key <AD06> { [ y, Y, f, F ] };
@@ -163,8 +161,8 @@ xkb_symbols "dvorak-custom" {
     key <AD08> { [ i, I, c, C,              ccedilla,        Ccedilla  ] };
     key <AD09> { [ o, O, r, R ] };
     key <AD10> { [ p, P, l, L ] };
-    key <AD11> { [ slash,           question,   dead_circumflex,  dead_diaeresis] };
-    key <AD12> { [ at,              asciicircum,   ecircumflex,  Ecircumflex, currency  ] };
+    key <AD11> { [ question,  slash,            dead_circumflex,  dead_diaeresis] };
+    key <AD12> { [ at,              asciicircum,   question,  Ecircumflex, currency  ] };
 
     // home row, left side
     key <AC02> { [ s, S, o, O ] };
@@ -179,7 +177,7 @@ xkb_symbols "dvorak-custom" {
     key <AC09> { [ l, L, n, N ] };
     key <AC10> { [ m, M, s, S ] };
     key <AC11> { [ underscore,    percent, minus, ugrave ] };
-    key <BKSL> { [ backslash,       bar, slash                  ] };
+    key <BKSL> { [ backslash,       bar, slash,backslash                  ] };
 
     // lower row, left side
     key <AB01> { [ w, W,apostrophe,      quotedbl,       dead_acute] };
@@ -191,7 +189,7 @@ xkb_symbols "dvorak-custom" {
     key <AB05> { [ b, B, x, X ] };
     key <AB06> { [ n, N, b, B ] };
     key <AB08> { [ semicolon,     period, w, W ] };
-    key <AB09> { [ colon,      slash, v, V ] };
+    key <AB09> { [ KP_Divide, colon,      v, V ] };
     key <AB10> { [ exclam,    section, z, Z ] };
 
 };
