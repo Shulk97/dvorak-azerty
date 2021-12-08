@@ -130,7 +130,7 @@ xkb_symbols "dvorak-french" {
     key <AE08> { [ parenright,    2            ] };
     key <AE11> { [ exclam,8,degree  ] };
     key <LSGT>	{ [	Shift_L, Shift_L] };
-    key <AE02> { [ bracketleft,    Eacute,eacute, 7 ] };
+    key <AE02> { [ eacute, 7, bracketleft,    Eacute ] };
 
     key.type[group1]="DVORAK_AZERTY";
     key <AE07> { [ asterisk, Egrave,  egrave,   0                ] };
