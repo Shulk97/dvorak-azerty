@@ -6,6 +6,9 @@ The project contains two layouts that replace Qwerty by Azerty and Dvorak by pro
 
 ------
 
+![](https://github.com/Shulk97/dvorak-azerty/blob/master/dvorak-azerty-french.png)
+![](https://github.com/Shulk97/dvorak-azerty/blob/master/dvorak-azerty-programmer.png)
+
 In this layout, you can input Dvorak layout symbols while Capslock is on. And turn it off to switch back to Azerty layout.  Any key will always work as Azerty when pressed with Control, Alt or Super regardless of the state of the Capslock. For that, Caps lock can't be used for input uppercase.  
 
 Installation
