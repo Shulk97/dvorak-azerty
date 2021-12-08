@@ -2,7 +2,7 @@ Dvorak-azerty on Linux
 ------
 
 This repository is an Azerty version of the project dvorak-qwerty (https://github.com/ZeptByteS/dvorak-qwerty).
-The project contains two layouts that replace Qwerty by Azerty and Dvorak by programmer dDvorak from by Roland Kaufmann (https://www.kaufmann.no/roland/dvorak/).
+The project contains two layouts that replace Qwerty by Azerty and Dvorak by programmer Dvorak from by Roland Kaufmann (https://www.kaufmann.no/roland/dvorak/).
 
 ------
 
