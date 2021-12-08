@@ -130,9 +130,9 @@ xkb_symbols "dvorak-french" {
     key <AE08> { [ parenright,    2            ] };
     key <AE11> { [ exclam,8,degree  ] };
     key <LSGT>	{ [	Shift_L, Shift_L] };
-    key <AE02> { [ eacute, 7, bracketleft,    Eacute ] };
 
     key.type[group1]="DVORAK_AZERTY";
+    key <AE02> { [ bracketleft, Eacute, eacute, 7] };
     key <AE07> { [ asterisk, Egrave,  egrave,   0                ] };
     key <AE09> { [ plus,      Ccedilla, ccedilla,      4       ] };
     key <AE10> { [ Agrave,    at, agrave, 6 ] };
@@ -151,7 +151,7 @@ xkb_symbols "dvorak-french" {
     //             Unmodified       Shift           AltGr            Shift+AltGr
     key <AD01> { [ a, A, colon,      semicolon,           dead_diaeresis  ] };
     key <AD02> { [ z, Z, comma,           less ] };
-    key <AD03> { [ EuroSign, E, period,          greater   ] };
+    key <AD03> { [ e,E, period,          greater   ] };
     key <AD04> { [ r, R, p, P ] };
     key <AD05> { [ t, T, y, Y ] };
     key <AD06> { [ y, Y, f, F ] };
