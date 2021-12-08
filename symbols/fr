@@ -46,8 +46,8 @@ xkb_symbols "dvorak-azerty-programmer" {
 
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // symbols row, left side
-    key <TLDE> { [ asciitilde,       dollar,              dead_tilde                        ] };
-    key <AE01> { [ percent,          ampersand                                   ] };
+    key <TLDE> { [ dollar, percent,                 dead_tilde                        ] };
+    key <AE01> { [ asciitilde, ampersand                                     ] };
     key <AE02> { [ bracketleft,     7,                      eacute,Eacute                    ] };
     key <AE03> { [ braceleft,         5                                                 ] };
     key <AE04> { [ braceright,      3                                                 ] };
@@ -130,10 +130,10 @@ xkb_symbols "dvorak-french" {
     key <AE08> { [ parenright,    2            ] };
     key <AE11> { [ exclam,8,degree  ] };
     key <LSGT>	{ [	Shift_L, Shift_L] };
+    key <AE02> { [ bracketleft,    Eacute,eacute, 7 ] };
 
     key.type[group1]="DVORAK_AZERTY";
     key <AE07> { [ asterisk, Egrave,  egrave,   0                ] };
-    key <AE02> { [ bracketleft,  Eacute, eacute,       7   ] };
     key <AE09> { [ plus,      Ccedilla, ccedilla,      4       ] };
     key <AE10> { [ Agrave,    at, agrave, 6 ] };
 
