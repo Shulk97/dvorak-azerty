@@ -1,12 +1,12 @@
-More simple way to use dvorak-qwerty on Linux (Ubuntu Gnome 16.04 LTS)
+Dvorak-azerty on Linux
 ------
 
-![](https://github.com/ZeptByteS/dvorak-qwerty/blob/master/dvorak-qwerty.png)
+This repository is an Azerty version of the project dvorak-qwerty (https://github.com/ZeptByteS/dvorak-qwerty).
+The project contains two layouts that replace Qwerty by Azerty and Dvorak by programmer dDvorak from by Roland Kaufmann (https://www.kaufmann.no/roland/dvorak/).
 
+------
 
-In this layout, you can input Dvorak layout symbols while Capslock is on. And turn it off to switch back to Qwerty layout.  Any key will always work as Qwerty when pressed with Control, Alt or Super regardless of the state of the Capslock. For that, Caps lock can't be used for input uppercase.  
-
-このレイアウトでは、CapslockがオンのときにDvorakレイアウトシンボルを入力できます。 Qwertyのレイアウトに戻すにはそれをオフにします。 Capslockの状態にかかわらず、Control、Alt、またはSuperと押された場合、どのキーも常にQwertyとして機能します。そのため、大文字の入力にはCaps Lockを使用できません。
+In this layout, you can input Dvorak layout symbols while Capslock is on. And turn it off to switch back to Azerty layout.  Any key will always work as Azerty when pressed with Control, Alt or Super regardless of the state of the Capslock. For that, Caps lock can't be used for input uppercase.  
 
 Installation
 ------
