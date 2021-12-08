@@ -6,7 +6,16 @@ The project contains two layouts that replace Qwerty by Azerty and Dvorak by pro
 
 ------
 
+### Dvorak azerty to type french
+
+This layout is meant to be used for tasks other than programming. French specific keys such as é, à or ç are easily accessed.
+
 ![](https://github.com/Shulk97/dvorak-azerty/blob/main/dvorak-azerty-french.png)
+
+### Dvorak azerty for programming
+
+This layout is meant to be used for programming tasks. Programming specific keys such as [ or { can be typed directly.
+
 ![](https://github.com/Shulk97/dvorak-azerty/blob/main/dvorak-azerty-programmer.png)
 
 In this layout, you can input Dvorak layout symbols while Capslock is on. And turn it off to switch back to Azerty layout.  Any key will always work as Azerty when pressed with Control, Alt or Super regardless of the state of the Capslock. For that, Caps lock can't be used for input uppercase.  
