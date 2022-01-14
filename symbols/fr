@@ -46,8 +46,8 @@ xkb_symbols "dvorak-azerty-programmer" {
 
     //             Unmodified       Shift           AltGr            Shift+AltGr
     // symbols row, left side
-    key <TLDE> { [ dollar, percent,                 dead_tilde                        ] };
-    key <AE01> { [ asciitilde, ampersand                                     ] };
+    key <TLDE> { [ dollar,           ampersand,                dead_tilde                        ] };
+    key <AE01> { [ asciitilde, percent                                    ] };
     key <AE02> { [ bracketleft,     7,                      eacute,Eacute                    ] };
     key <AE03> { [ braceleft,         5                                                 ] };
     key <AE04> { [ braceright,      3                                                 ] };
@@ -56,7 +56,7 @@ xkb_symbols "dvorak-azerty-programmer" {
 
     // symbols row, right side
     key <AE07> { [ asterisk,           0,              egrave,               Egrave           ] };
-    key <AE08> { [ parenright,      2                                                 ] };
+    key <AE08> { [ parenright,      2,                   grave                              ] };
     key <AE09> { [ plus,                 4,              ccedilla,              Ccedilla         ] };
     key <AE10> { [ bracketright,   6,              at   ] };
     key <AE11> { [ exclam,          8, degree ] };
@@ -82,8 +82,8 @@ xkb_symbols "dvorak-azerty-programmer" {
     key <AD08> { [ i, I, c, C,                ccedilla,           Ccedilla  ] };
     key <AD09> { [ o, O, r, R ] };
     key <AD10> { [ p, P, l, L ] };
-    key <AD11> { [ dead_circumflex, dead_diaeresis, backslash, question  ] };
-    key <AD12> { [ ecircumflex,          Ecircumflex,     at,      asciicircum,   currency  ] };
+    key <AD11> { [ dead_circumflex, dead_diaeresis, backslash, bar  ] };
+    key <AD12> { [ ecircumflex,          Ecircumflex,     question,  at, currency  ] };
 
     // home row, left side
     key <AC02> { [ s, S, o, O ] };
@@ -98,7 +98,7 @@ xkb_symbols "dvorak-azerty-programmer" {
     key <AC09> { [ l, L, n, N ] };
     key <AC10> { [ m, M, s, S ] };
     key <AC11> { [ ugrave,       percent, minus,       underscore] };
-    key <BKSL> { [ backslash, bar,        slash, bar                                    ] };
+    key <BKSL> { [ backslash, bar,        slash, backslash                                    ] };
 
     // lower row, left side
     key <AB01> { [ w, W,apostrophe,      quotedbl,       dead_acute] };
@@ -122,8 +122,8 @@ xkb_symbols "dvorak-french" {
     name[Group1]= "French (Dvorak to type in French)";
 
 
-    key <TLDE> { [ dollar,           asciitilde,     dead_tilde                        ] };
-    key <AE01> { [ percent,         ampersand                       ] };
+    key <TLDE> { [ dollar,           ampersand,     dead_tilde                        ] };
+    key <AE01> { [ asciitilde, percent                       ] };
     key <AE03> { [ braceleft,       5                         ] };
     key <AE04> { [ braceright,    3                  ] };
     key <AE05> { [ parenleft,       1,          EuroSign                          ] };
